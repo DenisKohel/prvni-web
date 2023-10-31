@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang=´cs´>
+  <head>
+    <link rel="stylesheet" href="styly.css" type="text/css" media="screen"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Můj první web</title>
+    <script type = "text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type = "text/javascript" src="jquery.lightbox-0.5.pack.js"></script>
+    <script type = "text/javascript" src="fotogalerie.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" class="nav-odkaz"> Úvod</a>
+      <a href="#onas" class="nav-odkaz"> O nás</a>
+      <a href="#sluzby" class="nav-odkaz"> Služby</a>
+      <a href="#cenik" class="nav-odkaz"> Ceník</a>
+      <a href="#kontakty" class="nav-odkaz"> Kontakt</a>
+  </nav>
+    <header>
+      <h1>Můj první web</h1>
+    </header>
+    
+    <section>
+        <h2> Tento web je cvičení</h2> 
+        <p> Tento web je jen cvičný, na kterém se naučíme úplné základy tvorby webových stránek. Naučíme se základní strukturu webu, vytváření a vkládání základních objektů a zároveň používání základních tagů a atributů</p>
+        <img src="obrázky/obrazek.jpg" alt="obrazek.jpg, 51kB" title="obrazek" height="319" width="531">
+    </section>
+
+    <section id="onas">
+      <h2> O nás</h2> 
+      <p> Zde jsou základní informace o našem webu.</p>
+      <img src="obrázky/obrazek.jpg" alt="obrazek.jpg, 51kB" title="obrazek" height="319" width="531">
+  </section>
+
+  <section id="sluzby">
+    <h2> Služby</h2> 
+    <p>Zde jsme si pro vás připravili ceník našich služeb</p>
+     <ul>
+        <li>Výměna rozbitého displeje mobilu</li>
+        <li>Odstranění virů</li>
+        <li>Výměna baterie mobilu</li>
+    </ul>
+    <div id="fotogalerie">
+      <a href="obrázky/phone.png">
+        <img src="obrázky/phone.png" class = "foto" alt="telefon">
+      </a>
+    </div>
+</section>
+
+<section id = "cenik">
+  <h2> Ceník</h2> 
+  <p> Zde jsou základní informace o ceníku našich služeb.</p>
+  <table>
+      <tr>
+          <td><b>Služba</b></td>
+          <td><b>Cena</b></td>
+      </tr>
+      <tr>
+          <td>Výměna rozbitého displeje mobilu</td>
+          <td class="zeleny-text">1500 Kč</td>
+      </tr>
+      <tr>
+          <td>Odstranění virů</td>
+          <td class="zeleny-text">700 Kč</td>
+      </tr>
+      <tr>
+          <td>Výměna baterie mobilu</td>
+          <td class="zeleny-text">1000 Kč</td>
+      </tr>
+  </table>
+</section>
+
+<section id = "kontakty">
+  <h2> Kontakt</h2>
+  <img src="obrázky/muz.png" alt="muz.png, 33kB" title="Kontakt" class="kontakt" width="80px">
+  <p><b>Denis Kohel</b></p>
+  <p><a href="tel: +420723542690">(+420) 723 542 690</a></p>
+  <p><a href="mailto: dkohel@gymsusice.cz">dkohel@gymsusice.cz</a></p>
+    <h3>Kde nás najdete</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d168.69715187269728!2d13.520543674770186!3d49.23858180974172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b2b241dcfbb81%3A0x144e23f718ad2667!2sScheinostova%2C%20342%2001%20Su%C5%A1ice%201!5e0!3m2!1scs!2scz!4v1698236568478!5m2!1scs!2scz" width="600" height="900" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+    <footer>
+        <p> Copyright &copy; 2023 &ndash; Denis Kohel 
+    </footer>
+  </body>
+</html>
+
+
+
